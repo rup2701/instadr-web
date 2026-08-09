@@ -109,7 +109,7 @@ body {
 
 a {
   cursor: pointer;
-  color: #676767 !important;
+  color: #676767;
 }
 .primary-text {
   // color: #0080ff !important;
@@ -4303,13 +4303,13 @@ input::-webkit-inner-spin-button {
 }
 
 
-@import './scss/_variables';
-@import './scss/general';
-@import './scss/_submenu';
-@import './scss/_features.scss';
-@import './scss/_footer.scss';
-@import './scss/_menu.scss';
-@import './scss/_home';
-@import './scss/components';
-@import './scss/bootstrap-custom';
-@import './scss/price';
+@import './styles/_variables';
+@import './styles/general';
+@import './styles/_submenu';
+@import './styles/_features.scss';
+@import './styles/_footer.scss';
+@import './styles/_menu.scss';
+@import './styles/_home';
+@import './styles/components';
+@import './styles/bootstrap-custom';
+@import './styles/price';

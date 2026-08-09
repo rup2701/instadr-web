@@ -58,6 +58,56 @@ $cyan:                      #00c9a7;
 $slateblue:                 #766df4;
 $yellow:                    #f7961c;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+// @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* // Breakpoints */
+$bp-small: 48em; // 768px
+$bp-medium: 64em; // 1024px
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+// Media Queries
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+
+// Font-Size
+// $base-font-size: calc(0.5vw + 0.1em);
+$base-font-size: 1rem !important;
+
+// Line-Height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+
+// https://getbootstrap.com/docs/4.3/content/typography/#responsive-font-sizes
+$enable-responsive-font-sizes: true;
+
+
+$color-background: #F6f7fb;
+// $color-background: #fafafa;
+$color-background-light: #e5f5f5;
+$color-background-secondary: #00000005;
+$color-background-dark: #d8d8d8;
+
+
+$color-main: #504F4F;
+$color-dominant: #0080ff;
+$color-active: #3e566e;
+$color-link: #ffffff;
+$color-link: #474747;
+ 
+$button-height: 27px;
+$button-width: 35px;
+$border-color: #00000010;
+
+
 $colors: (
     "primary": $primary,
     "secondary": $secondary,
