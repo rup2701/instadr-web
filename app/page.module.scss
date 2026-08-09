@@ -192,9 +192,13 @@ a.secondary {
   }
 
   .heroImage {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 8px;
+
+    @media (max-width: #{$bp-small}) {
+      max-width: 100%;
+    }
   }
 }
 
