@@ -5,8 +5,7 @@ function Hero() {
   return (
    <section className={styles.hero}>
       <div className={styles.heroInner}>
-        <div className={styles.heroLeft}>
-      
+        <div className={styles.heroLeft}> 
           <div className={styles.eyebrow}>
             Clinical Infrastructure
           </div>
@@ -41,9 +40,6 @@ function Hero() {
             height={600}
             className={styles.heroImage}
           />
-          
-            
-
         </div>
       </div>
     </section>
