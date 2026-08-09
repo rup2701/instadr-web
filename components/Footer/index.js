@@ -13,7 +13,8 @@ export default function Footer() {
                     <InstaDRLogo />
                   </Link>
               <span style={{ fontSize: '1rem', opacity: '0.7', marginTop: '8px' , display: "block"}}>
-                Doctors at your fingertips.</span>
+              Clinical infrastructure for the AI era
+              </span>
             </div>
             
             <Link href="./hipaa-compliance">
