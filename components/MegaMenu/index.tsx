@@ -36,7 +36,7 @@ const MegaMenu = () => {
       ],
     },
     {
-      title: 'Telehealth',
+      title: 'Solutions',
       link: '#',
       subMenu: [
         { title: 'Telehealth & Practice', link: '/' },
