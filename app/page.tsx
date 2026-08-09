@@ -11,8 +11,7 @@ function Hero() {
           </div>
 
           <h1 className={styles.headline}>
-            The infrastructure layer
-            for modern clinical care.
+            Infrastructure, platforms, and solutions for modern healthcare.
           </h1>
 
           <p className={styles.sub}>
