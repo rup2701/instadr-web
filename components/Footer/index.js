@@ -63,7 +63,7 @@ export default function Footer() {
                 </ul>
             </div>
           </div>
-          <p className="copyright">© 2025 InstaDR Inc. | All Rights Reserved. </p>
+          <p className="copyright">© 2020 - 2027 InstaDR | All Rights Reserved. </p>
         </div>
       </div>
   )
