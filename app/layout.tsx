@@ -12,8 +12,8 @@ const inter_tight = Inter_Tight({ subsets: ["latin"],   display: 'swap',
   variable: '--font-inter-tight' });
 
 export const metadata: Metadata = {
-  title: "InstaDRApp",
-  description: "Doctors at your fingertips",
+  title: "InstaDR - Clinical Infrastructure for the AI Era",
+  description: "Clinical infrastructure for the AI era",
 };
 
 export default function RootLayout({
