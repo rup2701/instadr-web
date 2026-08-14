@@ -13,8 +13,8 @@ const MegaMenu = () => {
       title: 'Platforms',
       link: '#',
       subMenu: [
-        { title: ' InstaRoom', link: '/' },
-        { title: 'Zenspace', link: '#' },
+        { title: ' InstaRoom', link: 'http://getinstaroom.com' },
+        { title: 'Zenspace', link: 'https://zenspace-eta.vercel.app/' },
         { title: 'Marketplace', link: '/marketplace' },
       ],
     },
@@ -22,7 +22,7 @@ const MegaMenu = () => {
       title: 'Engines',
       link: '#',
       subMenu: [
-        { title: 'MediaDance WebRTC', link: '/' },
+        { title: 'MediaDance WebRTC', link: 'https://telehealth-marketing.vercel.app/' },
         { title: 'VaultID Zero-Knowledge', link: '#' },
         { title: 'AI Workflow Layer', link: '#' },
       ],
